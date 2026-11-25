@@ -1,0 +1,23 @@
+# Данные
+data/*
+!data/.gitkeep
+
+# Результаты экспериментов
+results/figures/*
+results/tables/*
+!results/figures/.gitkeep
+!results/tables/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ОС
+.DS_Store
+Thumbs.db
