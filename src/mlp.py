@@ -229,7 +229,7 @@ class MLP:
         """
         os.makedirs(os.path.dirname(path), exist_ok=True)
         np.savez(path, **self.params)
-        print(f"Модель сохранена в {path}")
+        # print(f"Модель сохранена в {path}")
 
     def load_weights(self, path):
         """
